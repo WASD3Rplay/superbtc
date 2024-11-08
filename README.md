@@ -1,5 +1,6 @@
 # SuperBTC
 **User-friendly builder for launch your optimism node**
+**Forked from previous works on Builderism**
 
 It support 4 steps to operate OP Stack node
 |  Name      | Description                                                                   | Command      |
@@ -15,7 +16,7 @@ It support 4 steps to operate OP Stack node
 - faucet private key (for charging eth to proposer, batcher, admin)
 
 ## Quick Start
-1. Clone this repository `git clone https://github.com/rabbitprincess/builderism.git`
+1. Clone this repository `git clone git@github.com:WASD3Rplay/superbtc.git`
 2. Check and select chain configuration in `common.env` and `/envs/{server}.env`
 3. Run Command in sequence to `make init`, `make run`, `make scan`, `make bridge`
 
